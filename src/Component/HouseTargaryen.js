@@ -31,7 +31,7 @@ export default class HouseTargaryen extends Component {
   render() {
     return (
       <div>
-        <h2>2. What region is House Targaryen in?</h2>
+        <h2>3. What region is House Targaryen in?</h2>
         <h4>House Targaryen is from the {this.state.data} region.</h4>        
       </div>
     )

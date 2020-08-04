@@ -29,7 +29,7 @@ export default class JonSnowBorn extends Component {
   render() {
     return (
       <div>
-        <h2>Q: When was Jon Snow born?</h2>
+        <h2>1: When was Jon Snow born?</h2>
         <h3>Jon Snow was born {this.state.data}.</h3>        
       </div>
     )
