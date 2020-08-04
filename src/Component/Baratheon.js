@@ -15,11 +15,8 @@ export default class Baratheon extends Component {
   componentDidMount() {
 
     Axios.get("https://www.anapioficeandfire.com/api/houses/17").then(res => {
-      //let recipes = res.data.born;
-      // let recipes =JSON.parse(res);
       const seats = res.data.seats[1]; 
       console.log("seats : " + seats );
-      // const arr = Object.keys(json_data).map((key) => [key, json_data[key]]);
       this.setState({data:seats })
     })
     .catch(error => {

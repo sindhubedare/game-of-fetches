@@ -15,11 +15,10 @@ export default class HouseLannister extends Component {
   componentDidMount() {
 
     Axios.get("https://www.anapioficeandfire.com/api/houses/229").then(res => {
-      //let recipes = res.data.born;
-      // let recipes =JSON.parse(res);
+  
       const coatOfArms = res.data.coatOfArms; 
       console.log("coastOfArms: " + coatOfArms);
-      // const arr = Object.keys(json_data).map((key) => [key, json_data[key]]);
+     
       this.setState({data:coatOfArms})
     })
     .catch(error => {
