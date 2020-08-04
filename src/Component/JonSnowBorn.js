@@ -17,7 +17,7 @@ export default class JonSnowBorn extends Component {
     Axios.get("https://anapioficeandfire.com/api/characters/583").then(res => {
       const JonSnowBorn=res.data.born;
       console.log("Born: " + JonSnowBorn);
-      // const arr = Object.keys(json_data).map((key) => [key, json_data[key]]);
+     
       this.setState({data:JonSnowBorn})
     })
     .catch(error => {
