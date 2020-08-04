@@ -7,6 +7,7 @@ import HouseLannister from './Component/HouseLannister';
 import Baratheon from './Component/Baratheon';
 import Stark from './Component/Stark';
 import Robert from './Component/Robert';
+import BookTitle from './Component/BookTitle';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <Baratheon />
     <Robert />
     <Stark />
+    <BookTitle />
    
     </div>
   );
