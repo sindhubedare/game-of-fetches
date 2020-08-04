@@ -4,6 +4,7 @@ import JonSnowBorn from './Component/JonSnowBorn';
 import MargaeryBorn from './Component/MargaeryBorn';
 import HouseTargaryen from './Component/HouseTargaryen';
 import HouseLannister from './Component/HouseLannister';
+import Baratheon from './Component/Baratheon';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <MargaeryBorn />
     <HouseTargaryen />
     <HouseLannister />
+    <Baratheon />
     </div>
   );
 }
